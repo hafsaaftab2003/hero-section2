@@ -1,0 +1,80 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  gap: 60px;
+}
+
+/* Left Side */
+.left {
+  flex: 1;
+}
+
+.left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Right Side */
+.right {
+  flex: 1;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  
+}
+
+.right h1 {
+  font-size: 70px;
+  margin-bottom: 20px;
+  padding-bottom: 100px;
+}
+
+.right p {
+  font-size: 30px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.right button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 24px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  margin-right: 780px;
+}
+
+.info-block {
+  margin-bottom: 20px;
+}
+
+.info-block h2 {
+  font-size: 25px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.info-block p {
+  font-size: 30px;
+  color: #555;
+  line-height: 1.5;
+}
